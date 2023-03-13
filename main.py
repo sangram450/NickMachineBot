@@ -15,26 +15,26 @@ from pymongo import MongoClient
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 
 
-API_ID = int(os.environ.get("API_ID", None))
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
-BOT_USERNAME = os.environ.get("BOT_USERNAME") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL")
-OWNER_ID = int(os.environ.get("OWNER_ID"))
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP")
-BOT_NAME = os.environ.get("BOT_NAME")
-START_IMG1 = os.environ.get("START_IMG1")
-START_IMG2 = os.environ.get("START_IMG2")
-START_IMG3 = os.environ.get("START_IMG3")
-START_IMG4 = os.environ.get("START_IMG4")
-START_IMG5 = os.environ.get("START_IMG5")
-START_IMG6 = os.environ.get("START_IMG6")
-START_IMG7 = os.environ.get("START_IMG7")
-START_IMG8 = os.environ.get("START_IMG8")
-START_IMG9 = os.environ.get("START_IMG9")
-START_IMG10 = os.environ.get("START_IMG10")
+API_ID = ""
+API_HASH = ""
+BOT_TOKEN = ""
+MONGO_URL = ""
+BOT_USERNAME = "" 
+UPDATE_CHNL = "InflexUpdates"
+OWNER_ID = "5747402681"
+OWNER_USERNAME = "TheInflexLeader"
+SUPPORT_GRP = "InflexSupport"
+BOT_NAME = "Nick"
+START_IMG1 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG2 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG3 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG4 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG5 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG6 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG7 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG8 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG9 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
+START_IMG10 = "https://te.legra.ph/file/12976e520a6ccf8a86bfa.jpg"
 STKR = os.environ.get("STKR", "CAACAgQAAxkBAALRimNZXTpB8mhQbnAAAWAvCV4Ya1uHFQACnxEAAqbxcR57wYUDyflSISoE")
 STKR1 = os.environ.get("STKR1", "CAACAgQAAxkBAALRi2NZXUgjZCT775L5Nr0XrLbQ6XIpAAK_EQACpvFxHq2xh5JRVJNrKgQ")
 STKR2 = os.environ.get("STKR2", "CAACAgQAAxkBAALRjGNZXUs6YPggISBdtg4nXaU0vjNzAALqCwACbCIRU61ZQKi3F88DKgQ")
