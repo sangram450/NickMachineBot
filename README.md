@@ -12,7 +12,21 @@ Nɪᴄᴋ Mᴀᴄʜɪɴᴇ Bᴏᴛ Is Mɪɴᴇ.
 
 ## <i>Commands To Deploy On VPS !</i>
 
+
+`apt-get update && apt-get upgrade -y`
+
+`apt-get install python3-pip ffmpeg -y`
+
+`pip3 install -U pip`
+
+`git clone https://github.com/TeamInflex/NickMachineBot && cd NickMachineBot`
+
 `pip3 install -U -r requirements.txt`
+
+`nano main.py`
+Fill Your Vars In main.py File .
+
+`python main.py`
 
 
 ## <i>ᴄʜᴇᴄᴋ ᴛʜᴇ ᴅᴇᴍᴏ ʀᴏʙᴏᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!</i>
