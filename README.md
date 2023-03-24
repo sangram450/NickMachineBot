@@ -19,6 +19,8 @@ Nɪᴄᴋ Mᴀᴄʜɪɴᴇ Bᴏᴛ Is Mɪɴᴇ.
 
 `pip3 install -U pip`
 
+`apt install git`
+
 `git clone https://github.com/TeamInflex/NickMachineBot && cd NickMachineBot`
 
 `pip3 install -U -r requirements.txt`
